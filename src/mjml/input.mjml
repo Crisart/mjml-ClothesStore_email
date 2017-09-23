@@ -5,12 +5,12 @@
         <mj-attributes>
             <mj-all font-family="Noto Sans"/>
         </mj-attributes>
-        <mj-include path="./styles.mjml"/>
+        <mj-include path="src/mjml/styles.mjml"/>
         <mj-title>ClothesStore Promotion!</mj-title>
     </mj-head>
     <mj-body>
         <mj-container>
-            <!-- Link -->
+            <!-- View in browser Link -->
             <mj-section>
                 <mj-column>
                     <mj-text
@@ -35,7 +35,7 @@
             <mj-section>
                 <mj-column>
                     <mj-image
-                         src="./images/logos/logo_01.jpg"
+                         src="images/logos/logo_01.jpg"
                          width="368"
                          title="Logo"
                          alt="Logo"
@@ -64,7 +64,7 @@
                     </mj-button>
                 </mj-column>
             </mj-section>
-            <!-- Product Title -->
+            <!-- Products Title -->
             <mj-section>
                 <mj-column>
                     <mj-text
@@ -85,7 +85,7 @@
                         title="Top 01"
                         alt="Top 01"
                     />
-                    <mj-include path="./btn_check-availability.mjml"/>
+                    <mj-include path="src/mjml/btn_check-availability.mjml"/>
                 </mj-column>
                 <mj-column>
                     <mj-image
@@ -95,7 +95,7 @@
                         title="Top 02"
                         alt="Top 02"
                     />
-                    <mj-include path="./btn_check-availability.mjml"/>
+                    <mj-include path="src/mjml/btn_check-availability.mjml"/>
                 </mj-column>
                 <mj-column>
                     <mj-image
@@ -105,10 +105,10 @@
                         title="Top 03"
                         alt="Top 03"
                     />
-                    <mj-include path="./btn_check-availability.mjml"/>
+                    <mj-include path="src/mjml/btn_check-availability.mjml"/>
                 </mj-column>
             </mj-section>
-            <!-- Product Title -->
+            <!-- Products Title -->
             <mj-section>
                 <mj-column>
                     <mj-text
@@ -124,28 +124,28 @@
                 <mj-group>
                     <mj-column>
                         <mj-image 
-                            src="./images/featured_brands/brand_01.jpg" 
+                            src="images/featured_brands/brand_01.jpg" 
                             title="Brand 01"
                             alt="Brand 01"
                         />
                     </mj-column>
                     <mj-column>
                         <mj-image 
-                            src="./images/featured_brands/brand_02.jpg" 
+                            src="images/featured_brands/brand_02.jpg" 
                             title="Brand 02"
                             alt="Brand 02"
                         />
                     </mj-column>
                     <mj-column>
                         <mj-image 
-                            src="./images/featured_brands/brand_03.jpg" 
+                            src="images/featured_brands/brand_03.jpg" 
                             title="Brand 03"
                             alt="Brand 03"
                         />
                     </mj-column>
                     <mj-column>
                         <mj-image 
-                            src="./images/featured_brands/brand_04.jpg" 
+                            src="images/featured_brands/brand_04.jpg" 
                             title="Brand 04"
                             alt="Brand 04"
                         />
@@ -156,27 +156,28 @@
             <mj-section>
                 <mj-column vertical-align="middle">
                     <mj-image 
-                        src="./images/lux_products/luxery_01.jpg"
+                        src="images/lux_products/luxery_01.jpg"
                         title="Luxery 01"
                         alt="Luxery 01"
                     />
                 </mj-column>
                 <mj-column vertical-align="middle">
-                    <mj-include path="./btn_shop-lux-collection.mjml" />
+                    <mj-include path="src/mjml/btn_shop-lux-collection.mjml" />
                 </mj-column>
             </mj-section>
             <mj-section direction="rtl">
                 <mj-column vertical-align="middle">
                     <mj-image 
-                        src="./images/lux_products/luxery_02.jpg"
+                        src="images/lux_products/luxery_02.jpg"
                         title="Luxery 02" 
                         alt="Luxery 02"
                     />
                 </mj-column>
                 <mj-column vertical-align="middle">
-                    <mj-include path="./btn_shop-lux-collection.mjml" />
+                    <mj-include path="src/mjml/btn_shop-lux-collection.mjml" />
                 </mj-column>
             </mj-section>
+            <!-- Footer -->
             <mj-section>
                 <mj-column>
                     <mj-divider
@@ -192,7 +193,7 @@
                             <a href="#" title="Facebook" target="_blank">
                                 <img 
                                     alt="Facebook" 
-                                    src="./images/logos/outline-dark-facebook-48.jpg">
+                                    src="images/logos/outline-dark-facebook-48.jpg">
                             </a>
                         </mj-text>
                     </mj-column>
@@ -201,7 +202,7 @@
                             <a href="#" title="Twitter" target="_blank">
                                 <img 
                                     alt="Twitter" 
-                                    src="./images/logos/outline-dark-twitter-48.jpg">
+                                    src="images/logos/outline-dark-twitter-48.jpg">
                             </a>
                         </mj-text>
                     </mj-column>
@@ -210,7 +211,7 @@
                             <a href="#" title="Instagram" target="_blank">
                                 <img 
                                     alt="Instagram" 
-                                    src="./images/logos/outline-dark-instagram-48.jpg">
+                                    src="images/logos/outline-dark-instagram-48.jpg">
                             </a>
                         </mj-text>
                     </mj-column>
@@ -219,7 +220,7 @@
                             <a href="#" title="Link" target="_blank">
                                 <img 
                                     alt="Link" 
-                                    src="./images/logos/outline-dark-link-48.jpg">
+                                    src="images/logos/outline-dark-link-48.jpg">
                             </a>
                         </mj-text>
                     </mj-column>

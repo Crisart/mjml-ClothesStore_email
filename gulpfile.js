@@ -6,7 +6,7 @@ const browser = require('browser-sync')
 const tinypng = require('gulp-tinypng')
 
 gulp.task ('mjml', () => {
-	gulp.src('./input.mjml')
+	gulp.src('./src/mjml/input.mjml')
 		.pipe(mjml())
 		.pipe(rename('index.html'))
 		.pipe(beautify({indentSize: 2}))
@@ -17,10 +17,10 @@ gulp.task('browser', () => {
 	browser.init({server: { baseDir: './'}})
 })
 gulp.task ('default', ['mjml', 'browser'], () => {
-	gulp.watch('./*.mjml', ['mjml'])
+	gulp.watch('./src/mjml/*.*', ['mjml'])
 })
 gulp.task('tinypng', () => {
-	gulp.src('./src/img/**/*.*')
+	gulp.src('./src/images/**/*.*')
 	.pipe(tinypng('GUfbgZFPpPWtVQLzx9CKM6u9oSAmvDWu'))
 	.pipe(gulp.dest('./images'))
 })
