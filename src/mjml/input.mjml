@@ -186,7 +186,7 @@
                     />
                 </mj-column>
             </mj-section>
-            <mj-section>
+            <mj-section padding-top="5" padding-bottom="5">
                 <mj-group width="60%">
                     <mj-column>
                         <mj-text>
@@ -226,7 +226,7 @@
                     </mj-column>
                 </mj-group>
             </mj-section>
-            <mj-section>
+            <mj-section padding-top="5"> 
                 <mj-column>
                     <mj-text 
                         align="center"
