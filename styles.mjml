@@ -1,0 +1,27 @@
+<mj-style inline="inline">
+    .header_link {
+        color: inherit;
+    }
+    .banner_h2 {
+        font-size: 50px;
+        line-height: 1;
+        margin: 0;
+        color: #303c4b;
+    }
+    .banner_p {
+        font-size: 26px;
+        line-height: 1;
+        margin: 0;
+        color: #73d5c9;
+    }
+    .products_title {
+        font-size: 18px;
+        line-height: 1;
+        margin: 0;
+        color: #303c4b;
+    }
+    .footer_link {
+        color: inherit;
+        text-decoration: none;
+    }
+</mj-style>

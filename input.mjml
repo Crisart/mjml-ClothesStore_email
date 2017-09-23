@@ -1,0 +1,251 @@
+<mjml>
+    <mj-head>
+        <mj-preview>ClothesStore Promotion!</mj-preview>
+        <mj-font name="Noto Sans" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700"/>
+        <mj-attributes>
+            <mj-all font-family="Noto Sans"/>
+        </mj-attributes>
+        <mj-include path="./styles.mjml"/>
+        <mj-title>ClothesStore Promotion!</mj-title>
+    </mj-head>
+    <mj-body>
+        <mj-container>
+            <!-- Link -->
+            <mj-section>
+                <mj-column>
+                    <mj-text
+                        padding-bottom="0"
+                        align="center"
+                        font-size="16"
+                        color="#73d5c9"
+                    >
+                        <a 
+                            href="#" 
+                            class="header_link" 
+                            title="View in browser"
+                            alt="View in browser"
+                            target="_blank"
+                        >
+                            View in browser
+                        </a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- Logo -->
+            <mj-section>
+                <mj-column>
+                    <mj-image
+                         src="./images/logos/logo_01.jpg"
+                         width="368"
+                         title="Logo"
+                         alt="Logo"
+                    />
+                </mj-column>
+            </mj-section>
+            <!-- Banner -->
+            <mj-section
+                background-url="./images/banner/banner_01.jpg"
+                background-repeat="no-repeat"
+            >
+                <mj-column>
+                    <mj-text
+                        align="left"
+                    >
+                        <h2 class="banner_h2">WOMEN'S</h2>
+                        <p class="banner_p">New Fall Season 2015</p> 
+                    </mj-text>
+                    <mj-button
+                        href="#"
+                        background-color="#73d5c9"
+                        border-radius="0"
+                        font-size="16"
+                    >
+                        View Collection
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <!-- Product Title -->
+            <mj-section>
+                <mj-column>
+                    <mj-text
+                        align="center"
+                        padding="0"
+                    >
+                        <h3 class="products_title">TOP PRODUCTS SELECT FOR YOU</h3>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- Products Select -->
+            <mj-section>
+                <mj-column>
+                    <mj-image
+                        src="./images/top_products/top_01.jpg"
+                        width="180"
+                        padding="0"
+                        title="Top 01"
+                        alt="Top 01"
+                    />
+                    <mj-include path="./btn_check-availability.mjml"/>
+                </mj-column>
+                <mj-column>
+                    <mj-image
+                        src="./images/top_products/top_02.jpg"
+                        width="180"
+                        padding="0"
+                        title="Top 02"
+                        alt="Top 02"
+                    />
+                    <mj-include path="./btn_check-availability.mjml"/>
+                </mj-column>
+                <mj-column>
+                    <mj-image
+                        src="./images/top_products/top_03.jpg"
+                        width="180"
+                        padding="0"
+                        title="Top 03"
+                        alt="Top 03"
+                    />
+                    <mj-include path="./btn_check-availability.mjml"/>
+                </mj-column>
+            </mj-section>
+            <!-- Product Title -->
+            <mj-section>
+                <mj-column>
+                    <mj-text
+                        align="center"
+                        padding="0"
+                    >
+                        <h3 class="products_title">AS FEATURED IN</h3>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- Featured In -->
+            <mj-section>
+                <mj-group>
+                    <mj-column>
+                        <mj-image 
+                            src="./images/featured_brands/brand_01.jpg" 
+                            title="Brand 01"
+                            alt="Brand 01"
+                        />
+                    </mj-column>
+                    <mj-column>
+                        <mj-image 
+                            src="./images/featured_brands/brand_02.jpg" 
+                            title="Brand 02"
+                            alt="Brand 02"
+                        />
+                    </mj-column>
+                    <mj-column>
+                        <mj-image 
+                            src="./images/featured_brands/brand_03.jpg" 
+                            title="Brand 03"
+                            alt="Brand 03"
+                        />
+                    </mj-column>
+                    <mj-column>
+                        <mj-image 
+                            src="./images/featured_brands/brand_04.jpg" 
+                            title="Brand 04"
+                            alt="Brand 04"
+                        />
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <!-- Luxery Products -->
+            <mj-section>
+                <mj-column vertical-align="middle">
+                    <mj-image 
+                        src="./images/lux_products/luxery_01.jpg"
+                        title="Luxery 01"
+                        alt="Luxery 01"
+                    />
+                </mj-column>
+                <mj-column vertical-align="middle">
+                    <mj-include path="./btn_shop-lux-collection.mjml" />
+                </mj-column>
+            </mj-section>
+            <mj-section direction="rtl">
+                <mj-column vertical-align="middle">
+                    <mj-image 
+                        src="./images/lux_products/luxery_02.jpg"
+                        title="Luxery 02" 
+                        alt="Luxery 02"
+                    />
+                </mj-column>
+                <mj-column vertical-align="middle">
+                    <mj-include path="./btn_shop-lux-collection.mjml" />
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column>
+                    <mj-divider
+                        border-color="#303c4b"
+                        border-width="1"
+                    />
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-group width="60%">
+                    <mj-column>
+                        <mj-text>
+                            <a href="#" title="Facebook" target="_blank">
+                                <img 
+                                    alt="Facebook" 
+                                    src="./images/logos/outline-dark-facebook-48.jpg">
+                            </a>
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text>
+                            <a href="#" title="Twitter" target="_blank">
+                                <img 
+                                    alt="Twitter" 
+                                    src="./images/logos/outline-dark-twitter-48.jpg">
+                            </a>
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text>
+                            <a href="#" title="Instagram" target="_blank">
+                                <img 
+                                    alt="Instagram" 
+                                    src="./images/logos/outline-dark-instagram-48.jpg">
+                            </a>
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text>
+                            <a href="#" title="Link" target="_blank">
+                                <img 
+                                    alt="Link" 
+                                    src="./images/logos/outline-dark-link-48.jpg">
+                            </a>
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section>
+                <mj-column>
+                    <mj-text 
+                        align="center"
+                        line-height="2.4"
+                        color="#b0b0b0"    
+                    >
+                        This email was sent to 
+                        <a class="footer_link" href="#" title="Email" target="_blank">
+                            xxxxxx@xxxxxx.xxx
+                        </a>
+                        by Brooklien 
+                        </br>
+                        81 Prospect St | Brooklyn‚ NY
+                        </br>
+                        <a class="footer_link" href="#" title="Unsubscribe" target="_blank">
+                            Unsubscribe
+                        </a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-container>
+    </mj-body>
+</mjml>

@@ -1,0 +1,13 @@
+<mj-button
+    href="#"
+    font-size="14px"
+    padding="0"
+    padding-top="20px"
+    padding-bottom="10px"
+    background-color="#ffffff"
+    color="#73d5c9"
+    border="#73d5c9 solid 1px"
+    border-radius="0"
+>
+    Check Availibility
+</mj-button>
